@@ -1,0 +1,7 @@
+docker build -t your_image_name .
+
+In development mode:
+docker run -p 3002:3002 --env-file .env your_image_name
+
+In production mode:
+docker run -p 3002:3002 --env-file .env your_image_name
